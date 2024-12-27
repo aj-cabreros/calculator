@@ -25,6 +25,7 @@ background-color: #282828;
 #footer {
   height: 100px;
   background-color: #282828;
+  color: whitesmoke
 }
 
 #calculator {
@@ -81,7 +82,7 @@ button{
   flex: 1 0 0;
 }
 
-.function {
+.math-function {
   background-color: #282828;
   flex: 1 0 0;
 }
@@ -91,15 +92,19 @@ button{
   flex: 1 0 0; 
 }
 
-#value {
-  width:100px;
+#display {
   text-align: center;
   vertical-align: middle;
   line-height: 100px;
   font-size: 100px;
 }
 
-.big-button {
+#hard-reset,
+#addition {
   flex: 2 0 0;
+}
+
+#equal {
+  background-color: #B3B3B3;
 }
 
